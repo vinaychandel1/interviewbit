@@ -7,4 +7,9 @@ void Solution::rotate(vector<vector<int> > &A) {
     swap(A[i][j],A[i][A.size()-1-j]);
 }
 
+/*
+step 1: Take transpose of array
+Step 2: Reverse Every Row
+*/
+
 /*https://www.interviewbit.com/problems/rotate-matrix/*/
